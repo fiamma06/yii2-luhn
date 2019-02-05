@@ -1,0 +1,22 @@
+{
+    "name": "fiamma06/yii2-luhn",
+    "description": "Validator for Luhn",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kistsen Aliaksandr",
+            "email": "kistenalex@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "bower-asset/luhn-alg": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "fiamma06\\luhn\\": "src/"
+        }
+    }
+}
